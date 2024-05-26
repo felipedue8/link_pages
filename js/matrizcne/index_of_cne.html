@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>matriz cne</title>
+</head>
+<body>
+    
+   <div id="matriz_entrada">
+    <table>
+        <thead>
+            <tr>
+                <th id="columna" class="entrada"></th>
+                <th id="columna"class="entrada"> c-a </th>
+                <th id="columna"class="entrada"> c-b </th>
+                <th id="columna"class="entrada"> c-c </th>
+                <th id="columna"class="entrada"> c-d </th>
+                <th id="columna"class="entrada">total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="columna"class="entrada" >bogota</td>
+                <td><input type="number" oninput="this.value = Math.max(this.value, 1)" id="id1" class="entrada"></td>
+                <td><input type="number" oninput="this.value = Math.max(this.value, 1)" id="id2"class="entrada" ></td>
+                <td><input type="number" oninput="this.value = Math.max(this.value, 1)"  id="id3"class="entrada" ></td>
+                <td><input type="number" oninput="this.value = Math.max(this.value, 1)"  id="id4"class="entrada"></td>
+                <td id="id21" class="entrada"></td>
+            </tr>
+            <tr>
+                <td id="columna"class="entrada" >medellin</td>
+                <td><input  type="number" oninput="this.value = Math.max(this.value, 1)"  id="id5"class="entrada"></td>
+                <td><input type="number" oninput="this.value = Math.max(this.value, 1)"  id="id6"class="entrada"></td>
+                <td><input type="number" oninput="this.value = Math.max(this.value, 1)"  id="id7"class="entrada"></td>
+                <td><input type="number" oninput="this.value = Math.max(this.value, 1)"  id="id8"class="entrada"></td>
+                <td id="id22"  class="entrada" ></td>
+            </tr>
+            <tr>
+                <td id="columna"class="entrada" >cali</td>
+                <td><input type="number"class="entrada" id="id9" oninput="this.value = Math.max(this.value, 1)" ></td>
+                <td><input type="number" class="entrada"id="id10" oninput="this.value = Math.max(this.value, 1)" ></td>
+                <td><input type="number" class="entrada"id="id11" oninput="this.value = Math.max(this.value, 1)" ></td>
+                <td><input type="number" class="entrada"id="id12" oninput="this.value = Math.max(this.value, 1)" ></td>
+                <td id="id23"class="entrada" ></td>
+            </tr>
+            <tr>
+                <td id="columna"class="entrada" >bucaramanga</td>
+                <td><input type="number"class="entrada" id="id13" oninput="this.value = Math.max(this.value, 1)" ></td>
+                <td><input type="number"class="entrada" id="id14" oninput="this.value = Math.max(this.value, 1)" ></td>
+                <td><input type="number" class="entrada"id="id15" oninput="this.value = Math.max(this.value, 1)" ></td>
+                <td><input type="number"class="entrada" id="id16" oninput="this.value = Math.max(this.value, 1)" ></td>
+                <td id="id24"class="entrada"  ></td>
+            </tr> 
+            <tr>
+                <td id="columna"class="entrada" >pasto</td>
+                <td><input type="number"class="entrada" id="id17" oninput="this.value = Math.max(this.value, 1)" ></td>
+                <td><input type="number" class="entrada"id="id18" oninput="this.value = Math.max(this.value, 1)" ></td>
+                <td><input type="number" class="entrada"id="id19" oninput="this.value = Math.max(this.value, 1)" ></td>
+                <td><input type="number" class="entrada"id="id20" oninput="this.value = Math.max(this.value, 1)" ></td>
+                <td id="id25"class="entrada" ></td>
+            </tr>
+            <tr>
+                <td id="columna" class="entrada">total</td>
+                <td id="id26"  class="entrada" ></td>
+                <td id="id27"  class="entrada"></td>
+                <td id="id28"  class="entrada" ></td>
+                <td id="id29"  class="entrada"></td>
+                <td id="id30"  class="entrada" ></td>
+            </tr>
+        </tbody>
+    </table>
+   </div>
+   <button onclick="subirDatos()">subir datos</button>
+   <div id="resultados">
+    <h3 id="id31"></h3>
+    <h3 id="id32"></h3>
+    <h3 id="id33"></h3>
+    <h3 id="id34"></h3>
+    <h3 id="id35"></h3>
+   </div>
+    <script src="cne.js"></script>
+</body>
+</html>
