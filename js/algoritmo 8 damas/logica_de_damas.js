@@ -37,7 +37,7 @@ console.log(soluciones[0])
 function crearopciones(n){
     const opciones = document.createElement("select")   
      opciones.id ="miSelect"
-    for (var i = 1 ; i <= soluciones.length;i++ ){
+    for (var i = 1 ; i <= soluciones.length -1;i++ ){
         const num = document.createElement("option")
         num.value = i 
         num.textContent = ` ${i}`
