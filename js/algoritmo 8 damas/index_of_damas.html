@@ -3,9 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>8 damas</title>
 </head>
 <body>
-    <h1>pagina en proceso</h1>
+    <div id="introduction">
+    <h1>Algoritmo de la 8 reinas</h1>
+    <h2>El problema de las ocho reinas es un pasatiempo que consiste en poner ocho reinas en el tablero de ajedrez sin que se amenacen. Fue propuesto por el ajedrecista alemán Max Bezzel en 1848. ​​ En el juego del ajedrez la reina amenaza a aquellas piezas que se encuentren en su misma fila, columna o diagonal.</h2>
+    <h3>para crear la solucion del algoritmo digite la cantidad de reinas <mark>!ojo tiene que ser mayor o igual a 4¡</mark></h3>
+     <input oninput="this.value = Math.max(this.value,4)" placeholder="digite el numero aqui" type="number" id="damaas" >
+     <button onclick="subirdato()" >subir datos</button>
+        <h3>aqui puedes elejir entre las multiples opciones de resolucion del algoritmo</h3>
+     <div class="selector-horizontal" id="hola">
+       
+    </div>
+    
+    
+</div>
+    <div id="contenedor"></div>
+
+    <script src="logica_de_damas.js"></script>
+    
 </body>
 </html>

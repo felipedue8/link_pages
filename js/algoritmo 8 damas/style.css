@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(255, 161, 161);
+}
+#introduction{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size: 80%;
+    width: 70%;
+    margin: auto;
+}
+table{
+    width: 100%;
+}
+td{
+    border: 0.5px solid black;
+    justify-content: center;
+    text-align: center;
+    
+}
+#contenedor{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    
+}
+img{
+    width: 100%;
+    height: 1000%;
+    justify-content: center;
+    text-align: center;
+}
+.par{
+    background-color: black;
+}
