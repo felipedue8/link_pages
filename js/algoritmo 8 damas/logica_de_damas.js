@@ -90,11 +90,8 @@ const miSelect = document.getElementById('miSelect');
 miSelect.addEventListener('change', function(event) {
     // Obtener el valor de la opción seleccionada
     const opcionSeleccionada = event.target.value;
-    // Hacer algo con el valor seleccionado (en este caso, imprimirlo en la consola)
-    console.log('Opción seleccionada:', opcionSeleccionada);
     contenedor.innerHTML = ""
-// Crear la tabla
-const tabla = crearTabla(n,opcionSeleccionada);
+const tabla = crearTabla(n,opcionSeleccionada-1);
 contenedor.appendChild(tabla);
 });
 }

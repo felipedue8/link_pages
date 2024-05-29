@@ -25,6 +25,12 @@ input[type=number] {
     appearance: none;
     -moz-appearance:textfield; 
 }
+select{
+    justify-content: center;
+    text-align: center;
+    width: 10%;
+    font-size: large;
+}
 mark{
     background: burlywood;
 }

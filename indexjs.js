@@ -1,4 +1,3 @@
-/*
 window.addEventListener('resize', function() {
     var video = document.getElementById('videofondo');
     var aspectRatio = video.videoWidth / video.videoHeight;
@@ -14,4 +13,3 @@ window.addEventListener('resize', function() {
     }
 });
 window.dispatchEvent(new Event('resize')); // Ejecuta el evento resize al cargar la página
-*/
