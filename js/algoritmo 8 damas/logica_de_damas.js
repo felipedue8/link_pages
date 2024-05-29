@@ -33,16 +33,13 @@ function damas(n){
     return dmas
 }
 const soluciones = damas(n)
-console.log(soluciones[0])
 function crearopciones(n){
     const opciones = document.createElement("select")   
      opciones.id ="miSelect"
     for (var i = 0 ; i <= soluciones.length -1 ;i++ ){
         const num = document.createElement("option")
-        num.value = i 
-        num.textContent = ` ${i}`
-        
-        
+        num.value = i + 1
+        num.textContent = ` ${i+1}`
         opciones.appendChild(num)
     } 
     return opciones
@@ -54,7 +51,6 @@ function crearTabla(n,u) {
     for (let i = 0; i < n; i++) {
         // Crear un nuevo elemento fila
         const fila = document.createElement('tr');
-        
         // Iterar sobre las columnas
         for (let j = 0; j < n; j++) {
             // Crear un nuevo elemento celda
@@ -67,9 +63,7 @@ function crearTabla(n,u) {
                 imagen.src = 'imagenes/ESTA.png' 
                 celda.appendChild(imagen)
             } else{
-               
             }
-            
             // Añadir la celda a la fila
             fila.appendChild(celda);
         }
@@ -77,7 +71,6 @@ function crearTabla(n,u) {
         // Añadir la fila a la tabla
         tabla.appendChild(fila);
     }
-    
     return tabla;
 }
 const optiones = document.getElementById("hola")
@@ -104,6 +97,5 @@ miSelect.addEventListener('change', function(event) {
 const tabla = crearTabla(n,opcionSeleccionada);
 contenedor.appendChild(tabla);
 });
-
 }
 

@@ -19,6 +19,8 @@ table{
    border-width: 1px;
    border-style: solid;
    background-color: antiquewhite;
+   text-align: center;
+   font-size: medium;
 }
 input[type="number"] {
    width: 80%;
@@ -31,10 +33,20 @@ button{
   font-family: 'Times New Roman', Times, serif;
   font-weight: 800 ;
   font-style: oblique;
+  font-size: large;
 }
 #resultados{
     width: 80%;
    margin-left: 10%;
     justify-content: center;
     align-items: center;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+
+    }
+input[type=number] { 
+    appearance: none;
+    -moz-appearance:textfield; 
 }

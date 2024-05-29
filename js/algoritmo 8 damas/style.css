@@ -1,16 +1,36 @@
 body{
-    background-color: rgb(255, 161, 161);
+    background-color: rgb(240, 237, 237);
 }
 #introduction{
     display: block;
     justify-content: center;
     text-align: center;
-    font-size: 80%;
-    width: 70%;
+    font-size: 100%;
+    width: 100%;
     margin: auto;
 }
+#damaas{
+    text-align: center;
+    width: 5%;
+    height: 5%;
+    font-size: large;
+    margin: 1%;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+
+    }
+input[type=number] { 
+    appearance: none;
+    -moz-appearance:textfield; 
+}
+mark{
+    background: burlywood;
+}
 table{
-    width: 100%;
+    width: auto;
+    height: auto;
 }
 td{
     border: 0.5px solid black;
@@ -29,9 +49,38 @@ td{
 img{
     width: 100%;
     height: 1000%;
+    display: flex;
     justify-content: center;
     text-align: center;
 }
 .par{
     background-color: black;
+}
+.selector-horizontal{
+    margin: 1%;  
+}
+button{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient( #ddd8dace , #a0a0a0 );
+    color:#000000;
+    font-size: 23px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+    margin: auto;
+}
+button:hover{
+    transition: all .5s;
+    transform: rotate(-3deg) scale(1.1);
+    box-shadow: 0px 3px 5px rgba(0,0,0,.4);
 }
