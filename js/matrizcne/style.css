@@ -1,6 +1,10 @@
 body{
     background: linear-gradient(70deg, rgb(138, 138, 233), pink);
 }
+img{
+    width: 30px;
+    height: 30px;
+}
 #matriz_entrada{
     background-color: gray;
     margin: auto;

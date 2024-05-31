@@ -1,6 +1,10 @@
 body{
     background-color: rgb(240, 237, 237);
 }
+a img{
+    width: 30px;
+    height: 30px;
+}
 #introduction{
     display: block;
     justify-content: center;
